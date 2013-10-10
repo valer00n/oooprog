@@ -89,5 +89,24 @@
   </div>
 </div>
 <footer class="footer container">
+  <div class="row">
+    <aside class="col-sm-3">
+      <?php print render($page['footer1']); ?>
+    </aside>
+
+    <aside class="col-sm-3">
+      <?php print render($page['footer2']); ?>
+    </aside>
+
+    <aside class="col-sm-3">
+      <?php print render($page['footer3']); ?>
+    </aside>
+
+    <aside class="col-sm-3">
+      <?php print render($page['footer4']); ?>    
+    </aside>
+
+  </div>
+
   <?php print render($page['footer']); ?>
 </footer>
